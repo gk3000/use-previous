@@ -14,11 +14,11 @@ A lightweight and simple custom React hook that helps you track the **previous v
 Install the hook via npm:
 
 ```bash
-npm install @your-username/use-previous
+npm install @gk3000/use-previous
 ```
 or via yarn:
 ```
-yarn add @your-username/use-previous
+yarn add @gk3000/use-previous
 ```
 
 ##U sage
@@ -27,7 +27,7 @@ yarn add @your-username/use-previous
 This hook is perfect for tracking the previous value of a piece of state or a prop in your component. Here's an example of how to use it in a functional component:
 ```
 import React, { useState } from 'react';
-import usePrevious from '@your-username/use-previous';
+import usePrevious from '@gk3000/use-previous';
 
 function Counter() {
   const [count, setCount] = useState(0);
@@ -61,7 +61,7 @@ const previousValue = usePrevious(value);
 This hook can also track previous values of more complex data types, such as objects or arrays:
 ```
 import React, { useState } from 'react';
-import usePrevious from '@your-username/use-previous';
+import usePrevious from '@gk3000/use-previous';
 
 function UserInfo() {
   const [user, setUser] = useState({ name: 'John', age: 30 });

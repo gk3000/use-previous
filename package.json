@@ -1,6 +1,6 @@
 {
   "name": "@gk3000/use-previous",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "private": false,
   "main": "usePrevious.js",
   "description": "React hook to get the previous value of a prop or state",
