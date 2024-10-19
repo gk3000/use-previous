@@ -1,9 +1,12 @@
 {
   "name": "@gk3000/use-previous",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "private": false,
   "main": "usePrevious.js",
   "description": "React hook to get the previous value of a prop or state",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gk3000/use-previous"},
   "peerDependencies": {
     "react": ">=18.3.1",
     "react-dom": ">=18.3.1",
