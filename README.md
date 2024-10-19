@@ -1,10 +1,2 @@
-# Creating react custom hooks
+# usePrevious custom hook for React 
 
-## 1: useCounter
-git checkout main
-
-## 2: useLocalStorage
-git checkout useLocalStorage 
-
-## 3: usePrevious
-git checkout usePrevious
